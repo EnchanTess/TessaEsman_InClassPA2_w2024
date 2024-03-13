@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABCs of CSS</title>
+  <!--link to css-->
+  <link rel="stylesheet" href="./css/style.css" />
+  <!--link to js-->
+  <script src="./js/index.js"></script>
+</head>
+<body>
+  <!--overall content container-->
+  <div class="container">
+    <!--header containing both intro requirements-->
+    <header>
+      <!--first intro requirement-->
+        <p>Welcome to the Interactive ABCs of CSS Technology learning Website</p>
+    </header>  
+  <div class="clickInstructions">
+    <!--second intro requirement-->
+    <p>Click on the buttons below to reveal and learn the CSS technology 
+        features of the corresponiding letters</p>
+  </div>
+  <!--body container to encompass required photos and buttons-->
+  <div class="abcContainer">
+    <div class="item">
+        <!--image and hide button for A-->
+        <img src="./assets/css-letter-a.png" id="imageA" alt="aspect ratio graphic">
+        <div id="hideBtnA">
+            <button onclick="hideA()">Hide Results</button>
+        </div>
+        <!--letter button A-->
+        <div id="letterBtnA">
+            <button onclick="showA()">A</button>
+        </div>
+    </div>
+    <div class="item">
+        <!--image and hide button for B-->
+        <img src="./assets/css-letter-b.png" id="imageB" alt="border graphic">
+        <div id="hideBtnB">
+            <button onclick="hideB()">Hide Results</button>
+        </div>
+        <!--letter button B-->
+        <div id="letterBtnB">
+            <button onclick="showB()">B</button>
+        </div>
+    </div>
+    <div class="item">
+        <!--image and hide button for C-->
+        <img src="./assets/css-letter-c.png" id="imageC" alt="color graphic">
+        <div id="hideBtnC">
+            <button onclick="hideC()">Hide Results</button>
+        </div>
+        <!--letter button for C-->
+        <div id="letterBtnC">
+            <button onclick="showC()">C</button>
+        </div>
+    </div>
+  </div>
+</body>
+</html>

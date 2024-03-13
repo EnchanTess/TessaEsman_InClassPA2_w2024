@@ -1,0 +1,108 @@
+/*reset css*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid #ef2121;
+  height: 600px;
+}
+header {
+  margin: 5px;
+  padding: 15px;
+  border: 1px solid #ef2121;
+  display: flex;
+  justify-content: space-evenly;
+  /*Styling for first intro requirement*/
+}
+header .p {
+  display: flex;
+  /*Styling for first intro requirement*/
+}
+.clickInstructions {
+  margin: 5px;
+  padding: 15px;
+  border: 1px solid #ef2121;
+  /*Styling for second intro requirement*/
+}
+.clickInstructions p {
+  display: flex;
+  justify-content: space-evenly;
+  /*Styling for second intro requirement*/
+}
+.abcContainer {
+  width: 98%;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.abcContainer .item #imageA {
+  display: none;
+}
+.abcContainer .item #imageB {
+  display: none;
+}
+.abcContainer .item #imageC {
+  display: none;
+}
+.abcContainer .item #hideBtnA {
+  border: 1px solid #ef2121;
+  display: none;
+}
+.abcContainer .item #hideBtnB {
+  border: 1px solid #ef2121;
+  display: none;
+}
+.abcContainer .item #hideBtnC {
+  border: 1px solid #ef2121;
+  display: none;
+}
+.abcContainer .item button {
+  width: 80%;
+  margin: 10px;
+  padding: 5px;
+  background-color: #6a6cf4;
+  color: rgb(250, 250, 250);
+  margin-left: 10%;
+  /*styling for all three buttons*/
+}
+.abcContainer .item #letterBtnA {
+  width: 80%;
+  margin: 10px;
+  padding: 5px;
+  color: rgb(250, 250, 250);
+  margin-left: 10%;
+  /*styling for actual hide button*/
+}
+.abcContainer .item #letterBtnB {
+  width: 80%;
+  margin: 10px;
+  padding: 5px;
+  color: rgb(250, 250, 250);
+  margin-left: 10%;
+  /*styling for actual hide button*/
+}
+.abcContainer .item #letterBtnC {
+  width: 80%;
+  margin: 10px;
+  padding: 5px;
+  color: rgb(250, 250, 250);
+  margin-left: 10%;
+  /*styling for actual hide button*/
+}
+.abcContainer .item .letterBtn button {
+  width: 30%;
+  height: 40%;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ef2121;
+  margin-left: 30%;
+  /*styling for actual letter button*/
+}
